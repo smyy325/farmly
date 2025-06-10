@@ -20,7 +20,6 @@ class _OnboardingState extends State<Onboarding> {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                // Gölgelendirme sadece resim için
                 Container(
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(90),
