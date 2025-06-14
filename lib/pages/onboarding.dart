@@ -1,6 +1,8 @@
 import 'package:farm/service/widget_support.dart';
 import 'package:flutter/material.dart';
 
+import 'onboard.dart';
+
 class Onboarding extends StatefulWidget {
   const Onboarding({super.key});
 
@@ -49,20 +51,25 @@ class _OnboardingState extends State<Onboarding> {
                   style: AppWidget.SimpleTextFeildStyle(),
                 ),
                 SizedBox(height: 30.0,),
-                Container(
-                  height: 70,
-                  width: MediaQuery.of(context).size.width / 2,
-                  decoration: BoxDecoration(
-                    color: Color(0xFF33691E),
-                    borderRadius: BorderRadius.circular(20)
-                  ),
-                  child: Center(
-                    child: Text(
-                      "Get Started",
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 25.0,
-                        fontWeight: FontWeight.bold
+                GestureDetector(
+                  onTap: (){
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>Onboard()));
+                  },
+                  child: Container(
+                    height: 70,
+                    width: MediaQuery.of(context).size.width / 2,
+                    decoration: BoxDecoration(
+                      color: Color(0xFF33691E),
+                      borderRadius: BorderRadius.circular(20)
+                    ),
+                    child: Center(
+                      child: Text(
+                        "Get Started",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 25.0,
+                          fontWeight: FontWeight.bold
+                        ),
                       ),
                     ),
                   ),

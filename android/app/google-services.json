@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "496254820860",
+    "project_id": "farmly-6cd95",
+    "storage_bucket": "farmly-6cd95.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496254820860:android:3e01258e3492e8b75cd279",
+        "android_client_info": {
+          "package_name": "com.example.farm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCywxw2-Mb2ijj1IBb5rfaI5p-gsEOjxo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -19,7 +19,7 @@ class AppWidget{
 
   static TextStyle homeTextFeildStyle(){
     return TextStyle(
-      color: Color(0xFF1A237E),
+      color: Color(0xFF12195A),
       fontSize: 15.0,
       fontWeight: FontWeight.bold
     );
@@ -46,6 +46,37 @@ class AppWidget{
       color: const Color.fromARGB(174, 0, 0, 0),
       fontSize: 24.0,
       fontWeight: FontWeight.bold
+    );
+  }
+
+  static TextStyle SignUpTextFeildStyle(){
+    return TextStyle(
+        color: const Color.fromARGB(174, 0, 0, 0),
+        fontSize: 20.0,
+        fontWeight: FontWeight.bold
+    );
+  }
+
+  static TextStyle AlreadyTextFeildStyle(){
+    return TextStyle(
+      fontSize: 20.0,
+      color: Color(0xFF151E6A),
+    );
+  }
+
+  static TextStyle logInSignUpTextFeildStyle(){
+    return TextStyle(
+      fontSize: 20.0,
+      fontWeight: FontWeight.bold,
+      color: Color(0xFF151E6A),
+    );
+  }
+
+  static TextStyle logInSignUpButtonTextFeildStyle(){
+    return TextStyle(
+      fontSize: 30.0,
+      fontWeight: FontWeight.bold,
+      color: Colors.white,
     );
   }
 }
