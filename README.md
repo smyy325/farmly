@@ -1,16 +1,48 @@
-# farm
+# 🐄 Farmly – Where Farm Meets Family
 
-A new Flutter project.
+**Farmly** is a modern Flutter-based mobile application for selling fresh farm products online.  
+It includes both a **Customer Panel** and an **Admin Panel**, and integrates with **Firebase** for authentication and real-time data.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🌟 Features
 
-A few resources to get you started if this is your first Flutter project:
+### 👩‍🌾 Customer Side:
+- 🔐 Login & Register (via Firebase Authentication)
+- 🧺 Browse products by category (horizontal scrollable categories)
+- 🔍 Search for products
+- 📄 Product detail screen
+- 🛒 Place orders
+- 📦 View orders (Delivered / Undelivered status)
+- 💰 Wallet screen with wallet transaction history
+- 🙍 Profile screen
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 👩‍💼 Admin Panel:
+- 📃 View all customer orders
+- ✅ Mark orders as “Delivered” by tapping
+- 👥 View all users
+- ❌ Delete user accounts
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🔧 Technologies Used
+
+### 💻 Flutter & Dart
+
+### ☁️ Firebase Services:
+- Firebase Authentication  
+- Firebase Firestore  
+- Firebase Core  
+
+### 📦 Flutter Packages:
+
+```yaml
+curved_navigation_bar: ^1.0.6
+cloud_firestore:
+firebase_core:
+firebase_auth:
+random_string:
+shared_preferences:
+http:
+flutter_stripe: ^11.5.0
+intl:
